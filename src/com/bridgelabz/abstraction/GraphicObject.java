@@ -1,0 +1,11 @@
+package com.bridgelabz.abstraction;
+
+public abstract class GraphicObject {
+	int x, y;
+	
+	void moveTo(int newX, int newY) {
+		System.out.println("move to x: "+ x +"and y to: "+ y);
+	}
+	abstract void draw();
+	abstract void resize();
+}
